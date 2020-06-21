@@ -2,7 +2,7 @@
 
 https://mulez.herokuapp.com
 
-Creates multiplication exercises.
+Generates multiplication exercises.
 
 By default creates 10 exercises.
 
