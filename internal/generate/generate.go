@@ -33,10 +33,10 @@ func generateRow(count int) (res []string) {
 }
 
 func generateExercise() string {
-	a, b := generateTwoNum(9)
+	a, b := generateTwoNum(8)
 	return fmt.Sprintf("%d x %d =", a, b)
 }
 
 func generateTwoNum(max int) (int, int) {
-	return rand.Intn(max) + 1, rand.Intn(max) + 1
+	return rand.Intn(max) + 2, rand.Intn(max) + 2
 }
